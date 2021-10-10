@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Todo-app</title>
+    <script type="text/JavaScript">
+      function showMessage() {
+        display_message.innerHTML = document.getElementById("message").value;
+      }
+    </script>
+</head>
+<body>
+<h1>Welcome to your Todo App</h1>
+<form>
+    <label for="message">Enter message: </label><input type="text" id="message">
+    <input type="button" onclick="showMessage()" value="submit"/>
+</form>
+<p> Your Todo is: <span id="display_message"></span></p>
+</body>
+</html>
